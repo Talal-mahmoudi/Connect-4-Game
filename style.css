@@ -1,0 +1,72 @@
+#connect-four-board{
+    height: 540px;
+    width: 630px;
+
+    /* border-radius: 30%; */
+    background-color: blue;
+    border: 5px solid teal;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.body{
+    background-color: rgb(76, 71, 71);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    /* border: 2px solid yellow; */
+    width: 630px;
+    margin:0 auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.cell{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin:0 auto;
+    height: 85px;
+    width: 85px;
+    border: 2px solid purple;
+    /* border-radius: 35px; */
+    border-radius: 10px;
+    background-color: white;
+    /* text-align: center; */
+}
+.red-cell{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin:0 auto;
+    height: 85px;
+    width: 85px;
+    border: 2px solid purple;
+    /* border-radius: 35px; */
+    border-radius: 10px;
+    background-color: red;
+    /* text-align: center; */
+
+}
+.green-cell{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin:0 auto;
+    height: 85px;
+    width: 85px;
+    border: 2px solid purple;
+    /* border-radius: 35px; */
+    border-radius: 10px;
+    background-color: green;
+    /* text-align: center; */
+
+}
