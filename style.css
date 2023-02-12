@@ -49,8 +49,8 @@
     height: 85px;
     width: 85px;
     border: 2px solid purple;
-    /* border-radius: 35px; */
-    border-radius: 10px;
+    border-radius: 35px;
+    /* border-radius: 10px; */
     background-color: red;
     /* text-align: center; */
 
@@ -70,3 +70,19 @@
     /* text-align: center; */
 
 }
+/* #p1{
+
+}
+#p2{
+
+} */
+.player{
+    display: flex;
+    justify-content: space-between;
+}
+/* #player1{
+
+}
+#player2{
+
+} */
