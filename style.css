@@ -35,8 +35,8 @@
     height: 85px;
     width: 85px;
     border: 2px solid purple;
-    /* border-radius: 35px; */
-    border-radius: 10px;
+    border-radius: 40px;
+    /* border-radius: 10px; */
     background-color: white;
     /* text-align: center; */
 }
@@ -86,3 +86,7 @@
 #player2{
 
 } */
+/* #player1{
+    background-color: aliceblue; */
+    /* border-bottom: solid 5px blue;
+} 
